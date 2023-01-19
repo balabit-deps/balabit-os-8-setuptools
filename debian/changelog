@@ -1,3 +1,12 @@
+setuptools (45.2.0-1ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: ReDOS in package_index.py
+    - debian/patches/CVE-2022-40897.patch: Limit the amount of
+      whitespace to search/backtrack in setuptools/package_index.py.
+    - CVE-2022-40897
+
+ -- David Fernandez Gonzalez <david.fernandezgonzalez@canonical.com>  Thu, 19 Jan 2023 16:02:49 +0100
+
 setuptools (45.2.0-1) unstable; urgency=medium
 
   * New upstream version, Python3 only. Keep building the Python2 and
