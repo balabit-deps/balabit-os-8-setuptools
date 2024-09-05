@@ -1,3 +1,14 @@
+setuptools (45.2.0-1ubuntu0.2) focal-security; urgency=medium
+
+  * SECURITY UPDATE: remote code execution via package download functions
+    - debian/patches/CVE-2024-6345.patch: modernize and fix VCS handling
+      to prevent code injection in setuptools/package_index.py and
+      setuptools/tests/test_packageindex.py. Also update setup.cfg to
+      include new test dependencies.
+    - CVE-2024-6345
+
+ -- Vyom Yadav <vyom.yadav@canonical.com>  Thu, 05 Sep 2024 16:51:51 +0530
+
 setuptools (45.2.0-1ubuntu0.1) focal-security; urgency=medium
 
   * SECURITY UPDATE: ReDOS in package_index.py

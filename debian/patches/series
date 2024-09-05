@@ -8,3 +8,4 @@ reproducible.diff
 sorted-requires.diff
 PKG-INFO-output-reproducible.diff
 CVE-2022-40897.patch
+CVE-2024-6345.patch
