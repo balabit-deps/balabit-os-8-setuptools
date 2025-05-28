@@ -1,3 +1,14 @@
+setuptools (45.2.0-1ubuntu0.3) focal-security; urgency=medium
+
+  * SECURITY UPDATE: path traversal vulnerability
+    - debian/patches/CVE-2025-47273-pre1.patch: Extract
+      _resolve_download_filename with test.
+    - debian/patches/CVE-2025-47273.patch: Add a check to ensure the name
+      resolves relative to the tmpdir.
+    - CVE-2025-47273
+
+ -- Fabian Toepfer <fabian.toepfer@canonical.com>  Wed, 28 May 2025 19:14:28 +0200
+
 setuptools (45.2.0-1ubuntu0.2) focal-security; urgency=medium
 
   * SECURITY UPDATE: remote code execution via package download functions
